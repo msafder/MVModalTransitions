@@ -38,5 +38,4 @@
 
 @property (weak, readonly) id<MVCustomAlertViewClientDelegate> delegate;
 
-@property(weak, nonatomic, readonly) UIViewController *presentingTopViewController;
 @end

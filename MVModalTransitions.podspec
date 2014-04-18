@@ -9,13 +9,17 @@ Pod::Spec.new do |s|
 
   s.author       = { "Andrea Bizzotto" => "bizz84@gmail.com" }
 
-  s.platform     = :ios, '7.0'
+  s.platform     = :ios, '6.0'
 
   s.source       = { :git => "https://github.com/bizz84/MVModalTransitions.git", :tag => '1.0.0' }
 
   s.source_files = 'MVModalTransition/*.{h,m}'
 
   s.frameworks = 'UIKit', 'Foundation', 'CoreGraphics'
+
+  s.dependency = 'Masonry', '~> 0.4.0'
+
+  s.ios.deployment_target = '6.0' # minimum SDK with autolayout
 
   s.requires_arc = true
 

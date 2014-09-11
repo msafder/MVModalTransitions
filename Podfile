@@ -1,3 +1,3 @@
-platform :ios, '7.0'
+platform :ios, '8.0'
 
-pod 'Masonry', '0.4.0'
+pod 'Masonry', '0.5.3'

@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 
   s.frameworks = 'UIKit', 'Foundation', 'CoreGraphics'
 
-  s.dependency  'Masonry', '~> 0.4.0'
+  s.dependency  'Masonry', '~> 0.5.3'
 
   s.ios.deployment_target = '6.0' # minimum SDK with autolayout
 
